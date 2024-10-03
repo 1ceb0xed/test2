@@ -1,0 +1,60 @@
+body{
+    max-width: 1920px;
+}
+.system_info {
+
+}
+.system_info_text {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 554px;
+    width: 100%;
+}
+.p_system_info {
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+}
+.photos {
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+.sumo_photo {
+    max-width:415px ;
+    min-height: 661px;
+    position: absolute;
+    left: -165px;
+    z-index: 5;
+}
+.backphoto_indynamic_photo {
+    max-width: 807px;
+    max-height: 586px;
+    position: absolute;
+    z-index: 1;
+    left: 400px;
+    top: 41px;
+}
+.girl_photo {
+    max-width: 286px;
+    position: absolute;
+    z-index: 3;
+    left: 724px;
+    top: 141px;
+}
+.maysaku_photo {
+    max-width: 510px;
+    min-height: 664px;
+    position: absolute;
+    z-index: 2;
+    left: 822px;
+}
+.google_photo {
+    max-width: 925px;
+    position: absolute;
+    z-index: 4;
+    left: 1600px;
+}
